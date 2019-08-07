@@ -4,12 +4,12 @@ class Dog
     @breed = breed
   end
   
-  def breed=(Mutt)
-    @breed = Mutt
+  def breed=(mutt)
+    @breed = mutt
   end
   
-  def breed(Mutt)
-    @breed = Mutt
+  def breed(mutt)
+    @breed = mutt.capitalize
   end
   
 end
